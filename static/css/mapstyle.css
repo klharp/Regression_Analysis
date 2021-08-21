@@ -1,0 +1,162 @@
+body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+
+}
+
+#map-container {
+    position: relative;
+    height: 400px;
+    width: 100%;
+    text-align: left;
+}
+
+#map {
+  position: relative;
+  height: inherit;
+  width: inherit;
+}  
+
+.leaflet-interactive {
+  cursor: pointer;
+}
+
+#maplist li {
+  font-size: 1.25rem;
+}
+
+
+#overview2 {
+  height: 940px;
+}
+
+#houAnnualViz {
+  position: relative;
+  /* height: 1050px; */
+  width: 100%;
+}
+
+#houMonthlyViz {
+  position: relative;
+  /* height: 1050px; */
+  width: 100%;
+}
+
+#houDailyViz {
+  position: relative;
+  /* height: 1080px; */
+  width: 100%;
+}
+
+#mspAnnualViz {
+  position: relative;
+  /* height: 2550px; */
+  width: 100%;
+}
+
+#mspMonthlyViz {
+  position: relative;
+  /* height: 2550px; */
+  width: 100%;
+}
+
+#mspDailyViz {
+  position: relative;
+  /* height: 2580px; */
+  width: 100%;
+}
+
+#SubNav {
+  position: relative;
+  background-color: rgba(69, 96, 128, 0.15);
+  /* height: 2580px; */
+  width: 100%;
+}
+
+.navbar {
+  background-color: #456080;
+  opacity: 0.90;
+}
+.homefooter {
+  background-color: #456080;
+  opacity: 0.90;
+}
+
+.homefooter,
+.phomefooter {
+  padding-top: 1.5rem !important;
+}
+
+.homefooter,
+.homefooter {
+  padding-bottom: 1.5rem !important;
+}
+
+.notes {
+  color: red;
+  font-size: 11px;
+}
+
+#demographics {
+  font-size: 16px;
+}
+
+#demographics td  {
+  padding: 0.3rem;
+  vertical-align: middle;
+}
+
+.demoText {
+  font-size: 24px;
+  text-align: left;
+  color: black;
+  margin-top: 10px;
+  font-weight: 700;
+
+}
+
+.red{
+  color:#dc3545;
+}
+
+.small {
+  font-size: 80%;
+}
+
+.smaller {
+  font-size: 70%;
+}
+
+.smallest {
+  font-size: 60%;
+}
+
+.italic{
+  font-style: italic;
+}
+
+.incentive {
+  font-size: 99%;
+  font-weight: bold;
+  padding-left: 0.3rem;
+}
+
+.incentivesmall {
+  font-size: 85%;
+  padding-left: 0.3rem;
+
+}
+
+.default {
+  vertical-align: middle;
+  text-align: center;
+  color: #000;
+  font-size: 11px;
+}
+
+.bold {
+  font-size: 99%;
+  font-weight: bold;
+}
